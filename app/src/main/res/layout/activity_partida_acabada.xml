@@ -33,12 +33,15 @@
                 android:layout_marginStart="10dp"
         />
         <Button
-                android:text="Torna a jugar"
+                android:text="Torna a inici"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/tornaAJugarButton"
+                android:layout_height="wrap_content" android:id="@+id/tornaAIniciButton"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="30dp"
                 android:layout_gravity="center"
+                app:backgroundTint="#E59696"
+                app:cornerRadius="200dp"
+
 
         />
     </LinearLayout>

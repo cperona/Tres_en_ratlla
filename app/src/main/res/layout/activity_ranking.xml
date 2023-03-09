@@ -32,7 +32,7 @@
                     android:layout_gravity="center"
             >
                 <TextView
-                        android:text="Amics"
+                        android:text="Ranking"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"

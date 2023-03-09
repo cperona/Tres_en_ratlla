@@ -48,14 +48,13 @@
                 tools:layout_editor_absoluteX="167dp"
                 android:textSize="100px"
                 android:layout_gravity="center"
-                android:layout_marginStart="10dp"
+
         />
 
         <Button
                 android:text="Juga"
                 android:layout_width="241dp"
                 android:layout_height="73dp" android:id="@+id/jugarButton"
-                android:layout_marginStart="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_gravity="center"
                 app:cornerRadius="100dp"
@@ -64,7 +63,6 @@
                 android:text="Jugar amb la màquina"
                 android:layout_width="242dp"
                 android:layout_height="61dp" android:id="@+id/jugarAmbLaMaquinaButton"
-                android:layout_marginStart="10dp"
                 android:layout_marginTop="1dp"
                 android:layout_gravity="center"
                 app:cornerRadius="200dp"
@@ -80,7 +78,6 @@
                     android:layout_width="81dp"
                     android:layout_height="79dp" app:srcCompat="@drawable/configuracio_icon"
                     android:id="@+id/configuracioButton"
-                    android:layout_marginStart="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_gravity="center"
 

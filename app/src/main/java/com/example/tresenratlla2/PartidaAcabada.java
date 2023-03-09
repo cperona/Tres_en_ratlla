@@ -32,11 +32,11 @@ public class PartidaAcabada extends AppCompatActivity {
 
 
 
-        Button tornaAJugarButton = findViewById(R.id.tornaAJugarButton);
-        tornaAJugarButton.setOnClickListener(new View.OnClickListener() {
+        Button tornaAIniciButton = findViewById(R.id.tornaAIniciButton);
+        tornaAIniciButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Joc.class);
+                Intent intent = new Intent(v.getContext(), Inici.class);
                 startActivity(intent);
             }
         });
